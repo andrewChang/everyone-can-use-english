@@ -22,6 +22,7 @@ export default defineConfig((env) => {
         fileName: () => "[name].js",
         formats: ["es"],
       },
+      sourcemap: true,
       rollupOptions: {
         external: [
           ...external,

@@ -20,7 +20,9 @@
     },
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+    "forceConsistentCasingInFileNames":true,
+    "strict": true
   },
   "include": ["src"]
 }

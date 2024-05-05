@@ -88,7 +88,7 @@ app.on("ready", async () => {
 
     return net.fetch(`file:///${url}`);
   });
-
+  console.log("---starting---");
   mainWindow.init();
 });
 
